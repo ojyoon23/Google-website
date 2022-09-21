@@ -1,0 +1,169 @@
+body {
+    display: contents;
+    background: #FFFFFF;
+    font-family: Roboto, system-ui, sans-serif;
+    font-size: 81.25%;
+}
+
+/* Navbar (Top) */
+
+.navbar-area {
+    float: right;
+    margin: 20px;
+
+    /* vertically middle align
+    https://spin.atomicobject.com/2016/06/18/vertically-center-floated-elements-flexbox/ */
+    display: flex;
+    align-items: center;
+}
+
+.navbar-item {
+    text-decoration: none;
+    color: rgba(0,0,0,.87);
+    padding: 1px 10px;
+}
+
+.navbar-item:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.profile-button {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(173, 216, 230);
+    border: 1px solid #f8f9fa;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+
+/* Main (Middle) */
+
+.main-area {
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 400px;
+}
+
+.logo {
+    width: 300px;
+    height: 200px;
+
+}
+
+.input-area {
+    margin-top: 10px;
+}
+
+.input-box {
+    width: 561px;
+    height: 44px;
+    border-radius: 25px;
+    font-size: 16px;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+    border: 1px solid #dfe1e5;
+    padding-inline-end: 44px;
+    padding-inline-start: 52px;
+}
+
+.input-box:hover {
+    border: 1px solid #9aa0a6;
+}
+
+.input-box:focus {
+    border: 1px solid #555;
+}
+
+.search-icon {
+    position: relative;
+    left: 40px;
+    color: #9aa0a6;
+
+}
+
+.mic-icon {
+    position: relative;
+    right: 40px;
+    color: #9aa0a6;
+}
+
+.shortcut-area {
+    margin-top: 30px;
+    float: center;
+}
+
+.shortcut-individual {
+    display: inline-block;
+    padding: 40px 40px;
+}
+
+.shortcut-button {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    background-color: rgba(241, 243, 244, 1);;
+    border: 1px solid #f8f9fa;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.shortcut-img {
+    width: 22px;
+    height: 18px;
+}
+
+.shortcut-text {
+    text-decoration: none;
+    color: rgba(32, 33, 36, 1);
+    text-align: center;
+    display: inline;
+}
+
+.shortcut-text:hover {
+    text-decoration: underline;
+}
+
+/* Footer (Bottom) */
+
+.footer {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    background: #f2f2f2;
+    color: #70757a;
+}
+
+.first-line {
+    text-align: center;
+    padding: 15px 30px;
+}
+
+.first-line a {
+    text-decoration: none;
+    color: #70757a;
+}
+
+.first-line a:hover {
+    text-decoration: underline;
+}
+
+
+.second-line {
+    margin: 10px;
+}
+
+.second-line a{
+    text-decoration: none;
+    color: #70757a;
+    padding: 10px;
+}
+
+.second-line a:hover {
+    text-decoration: underline;
+}
+
+.second-line-right {
+    float: right;
+}
